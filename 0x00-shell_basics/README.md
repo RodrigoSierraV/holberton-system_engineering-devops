@@ -3,3 +3,4 @@
 2 script takes you to the home directory
 3 script displays current directory contents in long format 
 4 script shows the hidden files of a directory
+5 script shows long format, user and group ID, and hidden files

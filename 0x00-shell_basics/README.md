@@ -2,3 +2,4 @@
 1 script displays the contents list of the current directory
 2 script takes you to the home directory
 3 script displays current directory contents in long format 
+4 script shows the hidden files of a directory

@@ -6,3 +6,4 @@
 5 script shows long format, user and group ID, and hidden files
 6 script creates holberton directory in /tmp
 7 script moves the file betty to /tmp/holberton directory
+8 script deletes file betty from /tmp/holberton

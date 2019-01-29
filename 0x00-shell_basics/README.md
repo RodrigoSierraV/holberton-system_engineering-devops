@@ -9,3 +9,5 @@
 8 script deletes file betty from /tmp/holberton
 9 script deletes the holberton directory from tmp
 10 script changes directory to the previous one
+11 script allows to list files of the current, parent and boot directories
+12 script search the file type in the tmp directory 

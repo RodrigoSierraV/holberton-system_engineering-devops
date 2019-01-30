@@ -10,3 +10,4 @@ script 8 sets no permissions to owner and group, and give all to the users
 script 9 sets permissions -rwxr-x-wx to the file hello
 script 10 assigns the same permissions from one file to another
 script 11 adds execute permission to all subdirectories
+script 12 creates a directory with permissions 751

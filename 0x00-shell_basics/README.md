@@ -11,3 +11,5 @@
 10 script changes directory to the previous one
 11 script allows to list files of the current, parent and boot directories
 12 script search the file type in the tmp directory 
+13 script creates a symbolic link
+14 script copies HTML files

@@ -7,3 +7,4 @@ script 5 adds execute permission to the owner
 script 6 adds multiple permissions to owner, group and users
 script 7 adds execution permission to owner, group and users
 script 8 sets no permissions to owner and group, and give all to the users
+script 9 sets permissions -rwxr-x-wx to the file hello

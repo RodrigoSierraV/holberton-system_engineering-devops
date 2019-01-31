@@ -15,3 +15,5 @@ script 13 changes group owner of a file
 script 14 changes the owner and the group for  files and directories in the working directory
 script 15 changes owner and group for a symbolic link
 script 16 changes owner of a file with an specific user
+script 17 plays Star wars IV episode in the terminal
+script 18 creates a man page and passes all checks

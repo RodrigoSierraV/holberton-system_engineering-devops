@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -mtime 10
+find . -type f -newest 10

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script that displays:
+# The content of the current directory
+# In a list format
+# Where only the part of the name after the first dash is displayed
+
+file="/etc/passwd"
+while IFS= read -r line
+do
+	echo "$line" | cut -d ":" -f1,3,6
+done < "$file"

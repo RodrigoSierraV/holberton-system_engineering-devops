@@ -4,3 +4,4 @@
 sudo rm /etc/nginx/sites-enable/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enable/default
 sudo service nginx start
+

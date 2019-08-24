@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Add subdomains to the servers and loadbalancer
+# shellcheck disable=SC2086
+
+function func {
+for var in $list
+do
+subdomain="$var.$1"
+dig $subdomain\
+ | grep -A1 "ANSWER SECTION:"\
+ | awk -v var1=$var 'NR==2,NR==2{print "The subdomain " var1 " is a " $4 " record and points to " $5}'
+done
+
+}
+
+if [ "$#" -eq 1 ]
+then
+    list="www lb-01 web-01 web-02"
+
+elif [ "$#" -eq 2 ]
+then
+    list="$2"
+fi
+
+func "$1"

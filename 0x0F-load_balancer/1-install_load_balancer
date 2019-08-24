@@ -2,14 +2,14 @@
 # script that configures a new Ubuntu machine
 
 sudo apt update -y
-sudo apt install haproxi=1.8.\* -y
+sudo apt install haproxi=1.6.\* -y
 echo "frontend Local_Server
     bind *:80
     default_backend My_Web_Servers
-" | sudo tee -a /etc/haproxy/haproxy.cf
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 echo "backend My_Web_Servers
     balance roundrobin
     server 735-web-01 104.196.135.55:80 check
     server 735-web-02 34.73.16.217 check
-" | sudo tee -a /etc/haproxy/haproxy.cf
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 sudo service haproxy restart

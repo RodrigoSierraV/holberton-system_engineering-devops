@@ -2,7 +2,7 @@
 # script that configures a new Ubuntu machine
 
 sudo apt update -y
-sudo apt install haproxi=1.6.\* -y
+sudo apt install haproxy=1.6.\* -y
 echo "frontend Local_Server
     bind *:80
     default_backend My_Web_Servers

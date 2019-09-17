@@ -27,7 +27,6 @@ if __name__ == '__main__':
             task_list.append(task_dict)
 
         user_dict['{}'.format(j['id'])] = task_list
-        print(user_dict.values())
 
     with open('todo_all_employees.json', 'w') as file:
         json.dump(user_dict, file)
